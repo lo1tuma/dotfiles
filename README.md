@@ -3,9 +3,22 @@ dotfiles
 
 This repository contains my dotfiles.
 
-## Install
+## Dependencies
 * git
+* node & npm
 * zsh
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * vim
 * [vundle](https://github.com/gmarik/Vundle.vim)
+
+## Install
+* clone this repository to any directory
+* go to the cloned repository
+* run `npm install`
+* run `npm start`
+
+This creates symlinks in your home directory to all dotfiles in your cloned repository.
+
+### Update
+* run `get pull`
+* run `npm start` (this is only necessary if there are new dotfiles which should be symlinked)

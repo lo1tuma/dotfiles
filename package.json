@@ -1,0 +1,17 @@
+{
+    "name": "lo1tuma-dotfiles",
+    "version": "0.0.1",
+    "description": "dotfiles",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/lo1tuma/dotfiles.git"
+    },
+    "author": "Mathias Schreck <schreck.mathias@gmail.com>",
+    "license": "beerware",
+    "dependencies": {
+        "homesync": "0.0.2"
+    },
+    "scripts": {
+        "start": "homesync ."
+    }
+}
