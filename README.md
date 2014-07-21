@@ -20,5 +20,5 @@ This repository contains my dotfiles.
 This creates symlinks in your home directory to all dotfiles in your cloned repository.
 
 ### Update
-* run `get pull`
+* run `git pull`
 * run `npm start` (this is only necessary if there are new dotfiles which should be symlinked)
