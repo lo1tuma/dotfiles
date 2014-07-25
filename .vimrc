@@ -47,3 +47,5 @@ let g:haddock_browser = "open"
 let g:haddock_browser_callformat = "%s %s"
 
 let g:syntastic_javascript_checkers=['jshint']
+
+map <silent><space> :let @/=""<CR>
