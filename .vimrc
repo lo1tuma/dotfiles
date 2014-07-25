@@ -10,6 +10,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'L9'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'github.com/elzr/vim-json'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
