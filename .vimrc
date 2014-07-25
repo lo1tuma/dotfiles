@@ -51,3 +51,5 @@ let g:syntastic_javascript_checkers=['jshint']
 map <silent><space> :let @/=""<CR>
 set hlsearch
 set incsearch
+
+set showcmd
