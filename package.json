@@ -9,7 +9,7 @@
     "author": "Mathias Schreck <schreck.mathias@gmail.com>",
     "license": "beerware",
     "dependencies": {
-        "homesync": "0.0.2"
+        "homesync": "0.1.0"
     },
     "scripts": {
         "start": "homesync ."
