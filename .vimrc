@@ -21,6 +21,7 @@ Bundle 'jelera/vim-javascript-syntax'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'git://github.com/laurilehmijoki/haskellmode-vim.git'
 Bundle 'git://github.com/scrooloose/syntastic.git'
+Bundle 'derekwyatt/vim-scala'
 
 syntax enable
 set background=dark
@@ -55,3 +56,5 @@ set hlsearch
 set incsearch
 
 set showcmd
+
+autocmd BufRead,BufNewFile *.scala set filetype=scala
