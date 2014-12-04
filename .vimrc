@@ -45,6 +45,8 @@ set shiftwidth=4
 set expandtab
 set softtabstop=4
 
+set backspace=2
+
 " Configure browser for haskell_doc.vim
 let g:haddock_browser = "open"
 let g:haddock_browser_callformat = "%s %s"
