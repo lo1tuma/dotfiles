@@ -1,7 +1,7 @@
 [core]
     editor = /usr/bin/vim
 [push]
-    default = simple
+	default = nothing
 [branch]
     autosetuprebase = always
 [alias]
