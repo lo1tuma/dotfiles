@@ -35,6 +35,7 @@ set guifont=Monaco:h11
 set guifontwide=NSimsun:h12
 
 set number
+set ruler
 
 set list
 set listchars=tab:→\ ,trail:·,precedes:⇐,extends:⇒
