@@ -35,6 +35,7 @@ set guifont=Monaco:h11
 set guifontwide=NSimsun:h12
 
 set number
+set relativenumber
 set ruler
 
 set list
