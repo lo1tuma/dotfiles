@@ -12,6 +12,7 @@ Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'elzr/vim-json'
 Plugin 'gabrielelana/vim-markdown'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -62,3 +63,6 @@ set incsearch
 set showcmd
 
 autocmd BufRead,BufNewFile *.scala set filetype=scala
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
