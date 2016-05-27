@@ -41,7 +41,7 @@ set relativenumber
 set ruler
 
 set list
-set listchars=tab:→\ ,trail:·,precedes:⇐,extends:⇒
+set listchars=nbsp:⚡,tab:→\ ,trail:·,precedes:⇐,extends:⇒
 
 set smartindent
 set tabstop=4
