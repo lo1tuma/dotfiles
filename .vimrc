@@ -72,3 +72,5 @@ let g:ctrlp_max_files = 20000
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 :set noswapfile
+
+:set colorcolumn=120
