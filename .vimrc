@@ -14,6 +14,7 @@ Plugin 'elzr/vim-json'
 Plugin 'gabrielelana/vim-markdown'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'calebsmith/vim-lambdify'
+Plugin 'LnL7/vim-nix'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
