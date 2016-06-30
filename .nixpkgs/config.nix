@@ -18,7 +18,6 @@
         curl
         vim
         openssl
-        tree
         nix-repl
       ];
     };
