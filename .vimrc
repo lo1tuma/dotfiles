@@ -13,7 +13,6 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'elzr/vim-json'
 Plugin 'gabrielelana/vim-markdown'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'calebsmith/vim-lambdify'
 Plugin 'LnL7/vim-nix'
 Plugin 'pangloss/vim-javascript'
 
@@ -81,3 +80,10 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 :set noswapfile
 
 :set colorcolumn=120
+
+" Gneral conceal settings
+set conceallevel=1
+
+" vim-javascript plugin settings
+let g:javascript_conceal_function = "λ"
+let g:javascript_conceal_arrow_function = "λ"
