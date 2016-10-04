@@ -14,14 +14,13 @@ Plugin 'gabrielelana/vim-markdown'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'LnL7/vim-nix'
 Plugin 'pangloss/vim-javascript'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'laurilehmijoki/haskellmode-vim'
+Plugin 'scrooloose/syntastic.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'git://github.com/laurilehmijoki/haskellmode-vim.git'
-Bundle 'git://github.com/scrooloose/syntastic.git'
 
 syntax enable
 set background=dark
