@@ -15,12 +15,12 @@ Plugin 'gabrielelana/vim-markdown'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'calebsmith/vim-lambdify'
 Plugin 'LnL7/vim-nix'
+Plugin 'pangloss/vim-javascript'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-Bundle 'jelera/vim-javascript-syntax'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'git://github.com/laurilehmijoki/haskellmode-vim.git'
 Bundle 'git://github.com/scrooloose/syntastic.git'
