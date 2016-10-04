@@ -1,6 +1,7 @@
 { pkgs }:
 {
   allowUnfree = true;
+  allowBroken = true;
 
   packageOverrides = pkgs : {
     systemEnv = pkgs.buildEnv {
