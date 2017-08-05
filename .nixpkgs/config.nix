@@ -20,6 +20,9 @@
         vim
         openssl
         nix-repl
+        fd
+        exa
+        ripgrep
       ];
     };
   };
