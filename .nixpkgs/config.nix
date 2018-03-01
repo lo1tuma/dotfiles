@@ -12,7 +12,7 @@
         git
         silver-searcher
         python
-        nodejs-8_x
+        nodejs-9_x
         zsh
         wget
         tree
