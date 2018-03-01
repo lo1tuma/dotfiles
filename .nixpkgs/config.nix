@@ -24,6 +24,7 @@
         exa
         git-lfs
         ripgrep
+        bashInteractive
       ];
     };
   };
