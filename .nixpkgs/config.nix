@@ -22,6 +22,7 @@
         nix-repl
         fd
         exa
+        git-lfs
         ripgrep
       ];
     };
