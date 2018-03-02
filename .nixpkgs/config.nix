@@ -10,7 +10,6 @@
       paths = with pkgs; [
         cacert
         git
-        silver-searcher
         python
         nodejs-9_x
         zsh
