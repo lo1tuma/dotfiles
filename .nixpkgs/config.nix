@@ -18,7 +18,6 @@
         curl
         vim
         openssl
-        nix-repl
         fd
         exa
         git-lfs
