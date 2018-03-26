@@ -10,7 +10,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'L9'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'elzr/vim-json'
-Plugin 'gabrielelana/vim-markdown'
+Plugin 'godlygeek/tabular' " required by plasticboy/vim-markdown
+Plugin 'plasticboy/vim-markdown'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'LnL7/vim-nix'
 Plugin 'pangloss/vim-javascript'
@@ -89,3 +90,5 @@ set conceallevel=1
 " vim-javascript plugin settings
 let g:javascript_conceal_function = "λ"
 let g:javascript_conceal_arrow_function = "λ"
+
+let g:vim_markdown_folding_disabled = 1
