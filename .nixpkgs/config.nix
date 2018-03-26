@@ -23,6 +23,7 @@
         git-lfs
         ripgrep
         bashInteractive
+        nix-prefetch-scripts
       ];
     };
   };
