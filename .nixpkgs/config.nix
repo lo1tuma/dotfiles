@@ -23,6 +23,7 @@
         ripgrep
         bashInteractive
         nix-prefetch-scripts
+        alacritty
       ];
     };
   };
