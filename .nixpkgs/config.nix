@@ -11,7 +11,7 @@
         cacert
         git
         python
-        nodejs-9_x
+        nodejs-10_x
         zsh
         wget
         tree
