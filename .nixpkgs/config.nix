@@ -14,7 +14,6 @@
         nodejs-10_x
         zsh
         wget
-        tree
         curl
         vim
         openssl
