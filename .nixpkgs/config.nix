@@ -24,6 +24,7 @@
         bashInteractive
         nix-prefetch-scripts
         alacritty
+        bat
       ];
     };
   };
