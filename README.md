@@ -8,8 +8,6 @@ This repository contains my dotfiles.
 * node & npm
 * zsh
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-* vim
-* [vundle](https://github.com/gmarik/Vundle.vim)
 
 ## Install
 * clone this repository to any directory

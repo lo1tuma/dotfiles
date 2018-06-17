@@ -1,9 +1,17 @@
 { pkgs }:
+
 {
   allowUnfree = true;
   allowBroken = true;
 
-  packageOverrides = pkgs : {
+  packageOverrides = pkgs:
+  let
+    nvim = pkgs.neovim.override {
+      vimAlias = true;
+      configure = import ./neovim/config.nix { inherit pkgs; };
+      extraPython3Packages = [ pkgs.python3Packages.neovim ];
+    };
+  in {
     systemEnv = pkgs.buildEnv {
       name = "system-env";
 
@@ -15,7 +23,7 @@
         zsh
         wget
         curl
-        vim
+        nvim
         openssl
         fd
         exa
