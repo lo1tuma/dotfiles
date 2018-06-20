@@ -23,6 +23,7 @@ in {
       { name = "vim-gitgutter"; } # airblade/vim-gitgutter
       { name = "deoplete-nvim"; } # Shougo/deoplete.nvim
       { name = "ale"; } # w0rp/ale
+      { name = "echodoc"; }
       { name = "nvim-typescript"; }
     ];
   };

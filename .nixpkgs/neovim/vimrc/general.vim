@@ -37,6 +37,9 @@ let g:ale_fix_on_save = 1
 
 let g:deoplete#enable_at_startup = 1
 
+set cmdheight=2
+let g:echodoc_enable_at_startup = 1
+
 map <silent><space> :let @/=""<CR>
 set hlsearch
 set incsearch
